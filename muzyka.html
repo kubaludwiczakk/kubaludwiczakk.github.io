@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Muzyka - Hola template</title>
+    <meta property="og:title" content="Muzyka - Hola template" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./muzyka.css" rel="stylesheet" />
+      <script
+        type="text/javascript"
+        src="https://unpkg.com/@lottiefiles/lottie-player@1.6.0/dist/lottie-player.js"
+      ></script>
+
+      <div class="muzyka-container">
+        <div
+          class="navbar-interactive-container navbar-interactive-root-class-name"
+        >
+          <header
+            data-thq="thq-navbar"
+            class="navbar-interactive-navbar-interactive"
+          >
+            <div class="navbar-interactive-branding">
+              <a href="index.html" class="navbar-interactive-navlink">
+                <span>Jakub Ludwiczak</span>
+              </a>
+            </div>
+            <div
+              data-thq="thq-navbar-nav"
+              data-role="Nav"
+              class="navbar-interactive-desktop-menu"
+            >
+              <nav
+                data-thq="thq-navbar-nav-links"
+                data-role="Nav"
+                class="navbar-interactive-nav"
+              >
+                <div class="navbar-interactive-right">
+                  <div class="nav-links-links">
+                    <a href="muzyka.html" class="nav-links-link navLink">
+                      <span>muzyka</span>
+                    </a>
+                    <a href="grafika.html" class="nav-links-link1 navLink">
+                      <span>grafika</span>
+                    </a>
+                    <a href="wspolpraca.html" class="nav-links-link2 navLink">
+                      <span>współpraca</span>
+                    </a>
+                  </div>
+                  <div class="navbar-interactive-button">
+                    <a
+                      href="skontaktuj-sie.html"
+                      class="navbar-interactive-work-with-us button"
+                    >
+                      <span class="navbar-interactive-text">
+                        <span>skontaktuj się</span>
+                      </span>
+                      <img
+                        alt="image"
+                        src="public/hamburger.svg"
+                        class="navbar-interactive-image"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <div
+              data-thq="thq-burger-menu"
+              class="navbar-interactive-burger-menu"
+            >
+              <button class="navbar-interactive-work-with-us1 button">
+                <span class="navbar-interactive-text1">
+                  <span>work with us</span>
+                </span>
+                <img
+                  alt="image"
+                  src="public/hamburger.svg"
+                  class="navbar-interactive-image1"
+                />
+              </button>
+            </div>
+            <div
+              data-thq="thq-mobile-menu"
+              class="navbar-interactive-mobile-menu"
+            >
+              <div
+                data-thq="thq-mobile-menu-nav"
+                data-role="Nav"
+                class="navbar-interactive-nav1"
+              >
+                <div class="navbar-interactive-top">
+                  <div class="navbar-interactive-branding1">
+                    <span class="navbar-interactive-text2">
+                      <span>hola studio</span>
+                    </span>
+                  </div>
+                  <div
+                    data-thq="thq-close-menu"
+                    class="navbar-interactive-menu-close"
+                  >
+                    <svg
+                      viewBox="0 0 1024 1024"
+                      class="navbar-interactive-icon"
+                    >
+                      <path
+                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <nav
+                  data-thq="thq-mobile-menu-nav-links"
+                  data-role="Nav"
+                  class="navbar-interactive-middle"
+                >
+                  <div class="navbar-interactive-links">
+                    <span class="navLink"><span>work</span></span>
+                    <span class="navLink"><span>services</span></span>
+                    <span class="navLink"><span>contact</span></span>
+                  </div>
+                  <button class="navbar-interactive-work-with-us2 button">
+                    <span class="navbar-interactive-text3">
+                      <span>work with us</span>
+                    </span>
+                  </button>
+                </nav>
+              </div>
+            </div>
+          </header>
+        </div>
+        <div class="muzyka-comp-hero muzyka-comp-root-class-name">
+          <div class="muzyka-comp-header">
+            <h1 class="muzyka-comp-text">
+              <span>
+                Realizowane przeze mnie wydania podbijały klubowe parkiety,
+                dostarczając słuchaczom wielu wrażeń.
+              </span>
+            </h1>
+          </div>
+          <div class="muzyka-comp-hero-image">
+            <img
+              alt="image"
+              src="public/computer.svg"
+              loading="eager"
+              class="muzyka-comp-image"
+            />
+            <lottie-player
+              src="https://assets9.lottiefiles.com/packages/lf20_nn8hue1i.json"
+              loop=""
+              speed="1"
+              autoplay=""
+              background="transparent"
+              class="muzyka-comp-lottie-node"
+            ></lottie-player>
+          </div>
+        </div>
+        <div class="sekcja-muzyka-section">
+          <div class="sekcja-muzyka-case-studies">
+            <div class="sekcja-muzyka-caption">
+              <span class="sekcja-muzyka-text">
+                <span>REALIZACJE MUZYCZNE</span>
+              </span>
+              <div class="sekcja-muzyka-date-range">
+                <span class="sekcja-muzyka-text1"><span>2018</span></span>
+                <span class="sekcja-muzyka-text2"><span>——</span></span>
+                <span class="sekcja-muzyka-text3"><span>2023</span></span>
+              </div>
+            </div>
+            <div class="sekcja-muzyka-embryos-x-wency">
+              <div class="sekcja-muzyka-row">
+                <div class="sekcja-muzyka-case">
+                  <div class="sekcja-muzyka-heading">
+                    <span class="sekcja-muzyka-text4">
+                      <span>Embryos</span>
+                    </span>
+                    <span class="sekcja-muzyka-text5">
+                      <span>
+                        Enigmatyczne Techno wydane dla Szwedzkiego wydawnictwa
+                        AEDI, numer wydany na składance - nagrany wspólnie z
+                        Wencym
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="sekcja-muzyka-container">
+                <div class="sekcja-muzyka-row1">
+                  <div class="sekcja-muzyka-case1"></div>
+                </div>
+                <div class="sekcja-muzyka-container1">
+                  <iframe
+                    style="border: 0; width: 700px; height: 120px;"
+                    src="https://bandcamp.com/EmbeddedPlayer/album=197397477/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=1108470295/transparent=true/"
+                    seamless=""
+                  >
+                    &#x3C;a
+                    href='https://aedirecords.bandcamp.com/album/embryos-2'>Embryos
+                    by LDWQ, Wency&#x3C;/a>
+                  </iframe>
+                </div>
+                <div class="sekcja-muzyka-case2"></div>
+              </div>
+            </div>
+            <div class="sekcja-muzyka-bassment">
+              <div class="sekcja-muzyka-row2">
+                <div class="sekcja-muzyka-case3">
+                  <div class="sekcja-muzyka-heading1">
+                    <span class="sekcja-muzyka-text6">
+                      <span>FineDay</span>
+                    </span>
+                    <span class="sekcja-muzyka-text7">
+                      <span>
+                        Nagranie stworzone dla kolektywu Bassment, będące
+                        odświeżeniem nieśmiertelnego klasyka o tym samym tytule.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="sekcja-muzyka-container2">
+                <div class="sekcja-muzyka-row3">
+                  <div class="sekcja-muzyka-case4"></div>
+                </div>
+                <div class="sekcja-muzyka-code-embed">
+                  <iframe
+                    width="100%"
+                    height="300"
+                    scrolling="no"
+                    frameborder="no"
+                    allow="autoplay"
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1512572461&amp;color=%233e3e3e&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"
+                  ></iframe>
+                  <div
+                    style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"
+                  >
+                    <a
+                      href="https://soundcloud.com/wearesoundspace"
+                      title="Soundspace"
+                      target="_blank"
+                      style="color: #cccccc; text-decoration: none;"
+                    >
+                      Soundspace
+                    </a>
+                    ·
+                    <a
+                      href="https://soundcloud.com/wearesoundspace/premiere-bassment-fine-day-my-techno-weighs-a-ton"
+                      title="Premiere: Bassment - Fine Day [My Techno Weighs A Ton]"
+                      target="_blank"
+                      style="color: #cccccc; text-decoration: none;"
+                    >
+                      Premiere: Bassment - Fine Day [My Techno Weighs A Ton]
+                    </a>
+                  </div>
+                </div>
+                <div class="sekcja-muzyka-case5"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="stopa-footer stopa-root-class-name">
+          <span class="stopa-branding">
+            <span>Zapraszam do kontaktu!</span>
+          </span>
+          <div class="stopa-content">
+            <div class="stopa-contact">
+              <span class="stopa-name">
+                <span class="stopa-text">Jakub Ludwiczak</span>
+                <br />
+              </span>
+              <span class="stopa-email">
+                <span>kuba.ludwiczak@icloud.com</span>
+              </span>
+              <span class="stopa-number"><span>+48 736 745 427</span></span>
+            </div>
+            <div class="stopa-links-column">
+              <a href="skontaktuj-sie.html" class="stopa-link">
+                <span>Kontakt</span>
+              </a>
+              <a href="grafika.html" class="stopa-link1"><span>Muzyka</span></a>
+              <a href="grafika.html" class="stopa-link2">
+                <span>Współpraca</span>
+              </a>
+              <a href="grafika.html" class="stopa-link3">
+                <span>Grafika</span>
+              </a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>

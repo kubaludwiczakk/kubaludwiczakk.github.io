@@ -1,0 +1,297 @@
+.sekcja-muzyka-section {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: 135px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  padding-bottom: 135px;
+  background-color: #27272D;
+}
+.sekcja-muzyka-case-studies {
+  gap: var(--dl-space-space-fiveunits);
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  border-color: #ffffff;
+  flex-direction: column;
+  padding-bottom: 130px;
+  border-bottom-width: 1px;
+}
+.sekcja-muzyka-caption {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.sekcja-muzyka-text {
+  color: rgb(255, 255, 255);
+  letter-spacing: 5%;
+  text-transform: uppercase;
+}
+.sekcja-muzyka-date-range {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.sekcja-muzyka-text1 {
+  color: rgb(255, 255, 255);
+}
+.sekcja-muzyka-text2 {
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-weight: 300;
+}
+.sekcja-muzyka-text3 {
+  color: rgb(255, 255, 255);
+}
+.sekcja-muzyka-embryos-x-wency {
+  gap: var(--dl-space-space-fiveunits);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sekcja-muzyka-row {
+  gap: var(--dl-space-space-fiveunits);
+  display: flex;
+  align-self: flex-start;
+  justify-content: center;
+}
+.sekcja-muzyka-case {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sekcja-muzyka-heading {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sekcja-muzyka-text4 {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  line-height: 36px;
+}
+.sekcja-muzyka-text5 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+.sekcja-muzyka-container {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sekcja-muzyka-row1 {
+  gap: var(--dl-space-space-fiveunits);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.sekcja-muzyka-case1 {
+  gap: var(--dl-space-space-twounits);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sekcja-muzyka-container1 {
+  display: contents;
+}
+.sekcja-muzyka-case2 {
+  gap: var(--dl-space-space-twounits);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-self: flex-start;
+  margin-top: 0px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sekcja-muzyka-bassment {
+  gap: var(--dl-space-space-fiveunits);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sekcja-muzyka-row2 {
+  gap: var(--dl-space-space-fiveunits);
+  display: flex;
+  align-self: flex-start;
+  justify-content: center;
+}
+.sekcja-muzyka-case3 {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sekcja-muzyka-heading1 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sekcja-muzyka-text6 {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  line-height: 36px;
+}
+.sekcja-muzyka-text7 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+.sekcja-muzyka-container2 {
+  flex: 0 0 auto;
+  width: 716px;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sekcja-muzyka-row3 {
+  gap: var(--dl-space-space-fiveunits);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.sekcja-muzyka-case4 {
+  gap: var(--dl-space-space-twounits);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sekcja-muzyka-code-embed {
+  display: contents;
+}
+.sekcja-muzyka-case5 {
+  gap: var(--dl-space-space-twounits);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-self: flex-start;
+  margin-top: 0px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+@media(max-width: 991px) {
+  .sekcja-muzyka-section {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .sekcja-muzyka-case-studies {
+    gap: var(--dl-space-space-threeunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .sekcja-muzyka-caption {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .sekcja-muzyka-text {
+    font-size: 12px;
+  }
+  .sekcja-muzyka-date-range {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .sekcja-muzyka-text1 {
+    font-size: 12px;
+  }
+  .sekcja-muzyka-text2 {
+    font-size: 12px;
+  }
+  .sekcja-muzyka-text3 {
+    font-size: 12px;
+  }
+  .sekcja-muzyka-embryos-x-wency {
+    gap: var(--dl-space-space-threeunits);
+  }
+  .sekcja-muzyka-row {
+    gap: var(--dl-space-space-threeunits);
+    width: 100%;
+    flex-direction: column;
+  }
+  .sekcja-muzyka-case {
+    gap: var(--dl-space-space-unit);
+    width: 100%;
+    margin-top: 0px;
+  }
+  .sekcja-muzyka-heading {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .sekcja-muzyka-text4 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .sekcja-muzyka-text5 {
+    font-size: 16px;
+  }
+  .sekcja-muzyka-row1 {
+    gap: var(--dl-space-space-threeunits);
+    width: 100%;
+    flex-direction: column;
+  }
+  .sekcja-muzyka-case1 {
+    gap: var(--dl-space-space-unit);
+    width: 100%;
+  }
+  .sekcja-muzyka-case2 {
+    gap: var(--dl-space-space-unit);
+    width: 100%;
+    margin-top: 0px;
+  }
+  .sekcja-muzyka-bassment {
+    gap: var(--dl-space-space-threeunits);
+  }
+  .sekcja-muzyka-row2 {
+    gap: var(--dl-space-space-threeunits);
+    width: 100%;
+    flex-direction: column;
+  }
+  .sekcja-muzyka-case3 {
+    gap: var(--dl-space-space-unit);
+    width: 100%;
+    margin-top: 0px;
+  }
+  .sekcja-muzyka-heading1 {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .sekcja-muzyka-text6 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .sekcja-muzyka-text7 {
+    font-size: 16px;
+  }
+  .sekcja-muzyka-row3 {
+    gap: var(--dl-space-space-threeunits);
+    width: 100%;
+    flex-direction: column;
+  }
+  .sekcja-muzyka-case4 {
+    gap: var(--dl-space-space-unit);
+    width: 100%;
+  }
+  .sekcja-muzyka-case5 {
+    gap: var(--dl-space-space-unit);
+    width: 100%;
+    margin-top: 0px;
+  }
+}

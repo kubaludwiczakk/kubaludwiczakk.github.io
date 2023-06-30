@@ -1,0 +1,80 @@
+.muzyka-comp-hero {
+  gap: 120px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  padding-top: 140px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  padding-bottom: 160px;
+}
+.muzyka-comp-header {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.muzyka-comp-text {
+  color: rgb(39, 39, 45);
+  width: 100%;
+  font-size: 54px;
+  max-width: 1000px;
+  align-self: flex-start;
+  font-style: normal;
+  font-weight: 400;
+}
+.muzyka-comp-hero-image {
+  width: 100%;
+  display: flex;
+  align-self: flex-end;
+  align-items: flex-end;
+  padding-top: var(--dl-space-space-threeunits);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  padding-left: 180px;
+  padding-right: 180px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-threeunits);
+  justify-content: flex-start;
+  background-color: #ddff75;
+}
+.muzyka-comp-image {
+  width: 640px;
+  height: 540px;
+  display: none;
+  opacity: 0;
+  object-fit: cover;
+}
+.muzyka-comp-lottie-node {
+  width: 361px;
+  height: 337px;
+  align-self: center;
+}
+
+@media(max-width: 991px) {
+  .muzyka-comp-hero {
+    gap: var(--dl-space-space-fourunits);
+    padding-top: var(--dl-space-space-threeunits);
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .muzyka-comp-text {
+    font-size: 32px;
+  }
+  .muzyka-comp-hero-image {
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 767px) {
+  .muzyka-comp-image {
+    width: auto;
+    height: 220px;
+  }
+}

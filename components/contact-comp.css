@@ -1,0 +1,134 @@
+.tabelatekstowa-container {
+  width: 100%;
+  height: 213px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.tabelatekstowa-container1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  padding-top: 15px;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+.tabelatekstowa-input {
+  width: 514px;
+  height: 100%;
+  align-self: center;
+  border-width: 2px;
+  border-radius: 0px;
+}
+.tabelatekstowa-container2 {
+  height: 67px;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  padding-top: 15px;
+  flex-direction: column;
+  padding-bottom: 15px;
+}
+.tabelatekstowa-wiadomo {
+  width: 514px;
+  height: 100%;
+  align-self: center;
+  border-width: 2px;
+  border-radius: 0px;
+}
+.tabelatekstowa-container3 {
+  height: 91px;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  padding-top: 15px;
+  flex-direction: column;
+  padding-bottom: 15px;
+}
+.tabelatekstowa-work-with-us {
+  cursor: pointer;
+  padding: var(--dl-space-space-unit);
+  align-self: center;
+  transition: 0.3s;
+  border-radius: 70px;
+  text-decoration: none;
+  background-color: rgb(229, 254, 88);
+}
+.tabelatekstowa-work-with-us:hover {
+  opacity: 0.5;
+}
+.tabelatekstowa-text {
+  display: flex;
+  font-size: 24px;
+}
+.tabelatekstowa-image {
+  width: 100px;
+  display: none;
+  object-fit: cover;
+}
+
+@media(max-width: 991px) {
+  .tabelatekstowa-text {
+    line-height: 30px;
+  }
+}
+@media(max-width: 767px) {
+  .tabelatekstowa-work-with-us {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .tabelatekstowa-text {
+    display: none;
+  }
+  .tabelatekstowa-image {
+    width: 16px;
+    height: 14px;
+    display: flex;
+  }
+}
+
+.contact-comp-hero {
+  gap: 120px;
+  width: 100%;
+  height: 689px;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  padding-top: 140px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  padding-bottom: 160px;
+}
+.contact-comp-header {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-comp-text {
+  color: rgb(39, 39, 45);
+  width: 100%;
+  font-size: 54px;
+  max-width: 1000px;
+  align-self: center;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@media(max-width: 991px) {
+  .contact-comp-hero {
+    gap: var(--dl-space-space-fourunits);
+    padding-top: var(--dl-space-space-threeunits);
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .contact-comp-text {
+    font-size: 32px;
+  }
+}
